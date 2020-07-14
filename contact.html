@@ -1,0 +1,119 @@
+<!DICTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>お問い合わせ | 小部宇野田ラグビースクール</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+          auto:true,
+          slideWidth:960,
+          mode:'fade',
+          infinitieLoop:true,
+          
+      });
+    });
+  </script>
+</head>
+    
+<body id="contact">
+   
+    <header>
+        <div class="row">
+            <h1>
+                <div id="logo1">
+                <a href="index.html"><img src="images/toplogo1.png" alt="小部宇野田ラグビースクール"></a>
+                </div>
+            </h1>
+            <div id="logo2"><img src="images/top-logo-right.png" ></div>
+        </div>
+    </header> 
+    
+    <nav id="nav">
+        <div class="row">
+            <ul>
+                <li><a href="about.html">チーム概要</a></li>
+                <li><a href="news.html">お知らせ</a></li>
+                <li><a href="what.html">ミニラグビー<br>タグラグビーとは</a></li>
+                <li><a href="schedule.html">練習日程<br>行事予定</a></li>
+                <li><a href="join.html">入会案内</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="content">
+        
+        <main>
+            <div id="path">
+                <ol>
+                    <li><a href="index.html">トップページ</a></li>
+                    <li>お問い合わせ</li>
+                </ol>
+            </div>
+            
+            <section>
+                <h2>お問い合わせ</h2>
+                
+                <p>&emsp;下記フォーマットにご記入いただき、ページ下部の送信ボタンを押してください。<br>&emsp;なお、お問い合わせの内容や送信者のお名前等のプライバシーは厳重に管理いたします。(<span class="must">必須</span>が付いている項目は必ずご記入ください)</p>
+                
+                <form method="post" action="">
+                    
+                    <p>お名前<span class="must">必須</span><br><label><input type="text" name="name" size="20" repuierd placeholder="　例）闘球　太郎"></label></p>
+                    
+                    <p>メールアドレス<span class="must">必須</span><br><label><input type="email" name="mailaddress" size="40" placeholder="　例）rugby_tarou@gmail.com"></label></p>
+                    
+                    <p>お問い合わせ項目<span class="must">必須</span><br><input type="radio" name="koumoku" value="join" checked="checked">入会について&emsp;  
+                    <input type="radio" name="koumoku" value="katudou">活動について&emsp; 
+                    <input type="radio" name="koumoku" value="match">練習試合の受付&emsp;  
+                    <input type="radio" name="other" value="other">その他</p> 
+                    
+                    <p>お問い合わせ内容<span class="must">必須</span><br><label><textarea name="naiyou" cols="80" rows="20" requierd></textarea></label></p>
+                    
+                    <p><input type="submit" value="送信する"></p>
+                
+                
+                </form>
+            </section>
+        </main>
+        
+        <aside>
+            <div class="side">
+            <ul>
+                <li><a href="about.html"><img src="images/about.png" alt="チーム概要"></a></li>
+                <li><a href="news.html"><img src="images/news.png" alt="お知らせ"></a></li>
+                <li><a href="what.html"><img src="images/what.png" alt="ミニラグビーとは"></a></li>
+                <li><a href="schedule.html"><img src="images/schedule.png" alt="練習日程行事予定"></a></li>
+                <li><a href="join.html"><img src="images/join.png" alt="入会案内"></a></li>
+                <li><a href="contact.html"><img src="images/contact.png" alt="お問い合わせ"></a></li>
+            </ul>
+            </div>
+        </aside>
+    </div>
+    
+    <footer>
+        <div class="row">
+            <ul>
+                <li id="footer-nav-about"><a href="about.html"><i class="fas fa-user"></i><br>チーム概要</a></li>
+                <li id="footer-nav-news"><a href="news.html"><i class="fas fa-bullhorn"></i><br>お知らせ</a></li>
+                <li id="footer-nav-what"><a href="what.html"><i class="fas fa-football-ball"></i><br>ミニラグビー<br>タグラグビーとは</a></li>
+                <li id="footer-nav-schedule"><a href="schedule.html"><i class="far fa-calendar-alt"></i><br>練習日程<br>行事予定</a></li>
+                <li id="footer-nav-join"><a href="join.html"><i class="fas fa-users"></i><br>入会案内</a></li>
+                <li id="footer-nav-contact"><a href="contact.html"><i class="far fa-envelope"></i><br>お問い合わせ</a></li>
+            </ul>
+        </div>
+        <small id="copyright">&copy; 2020 小部宇野田ラグビースクール</small>
+    </footer>
+</body>
+
+
+</html>
